@@ -18,22 +18,22 @@
 
     <!-- Konten yang berada di bawah gambar background -->
     <div class="flex flex-col lg:flex-row justify-between items-center px-6 lg:px-20 pt-8">
-      <!-- Bagian teks -->
-      <div class="text-center lg:text-left">
-        <h2 class="text-3xl lg:text-4xl font-bold">Hi, I'm Muhammad Baihaqi</h2>
-        <h3 class="text-xl lg:text-2xl text-violet-400">Frontend Developer</h3>
-        <h4 class="max-w-md text-gray-300 mt-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium distinctio, vel iure dolores autem doloribus maiores neque laudantium nisi modi sapiente in excepturi inventore aspernatur cum ea incidunt? Ipsam vero adipisci, iure officia iusto rem!
-        </h4>
-      </div>
-
-      <!-- Gambar profil di sebelah kanan pada layar besar, di atas/bawah teks pada layar kecil -->
-      <div class="mt-6 lg:mt-0 lg:ml-8">
+      <!-- Gambar profil di atas teks pada layar kecil -->
+      <div class="flex-shrink-0 mb-6 lg:mb-0 lg:ml-8 order-1 lg:order-2">
         <img
           src="@/assets/img/haqi.jpg"
           alt="Profile"
           class="w-60 h-60 rounded-full object-cover border-4 border-violet-400 mx-auto lg:mx-0"
         />
+      </div>
+
+      <!-- Bagian teks -->
+      <div class="text-center lg:text-left order-2 lg:order-1">
+        <h2 class="text-3xl lg:text-4xl font-bold">Hi, I'm Muhammad Baihaqi</h2>
+        <h3 class="text-xl lg:text-2xl text-violet-400">Frontend Developer</h3>
+        <h4 class="max-w-md text-gray-300 mt-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium distinctio, vel iure dolores autem doloribus maiores neque laudantium nisi modi sapiente in excepturi inventore aspernatur cum ea incidunt? Ipsam vero adipisci, iure officia iusto rem!
+        </h4>
       </div>
     </div>
 
