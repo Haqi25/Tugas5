@@ -10,29 +10,29 @@
       <!-- Jika `message` ada, tampilkan message -->
       <h2
         v-if="message"
-        class="mx-auto pt-24 text-center text-7xl font-bold tracking-wide text-yellow-100 md:text-8xl lg:max-w-[60%] lg:pt-32 lg:text-9xl"
+        class="mx-auto pt-24 text-center text-5xl font-bold tracking-wide text-yellow-100 md:text-6xl lg:max-w-[60%] lg:pt-32 lg:text-8xl"
       >
         {{ message }}
       </h2>
     </header>
 
     <!-- Konten yang berada di bawah gambar background -->
-    <div class="flex justify-between items-center pl-20 pt-2 lg:pt-2">
+    <div class="flex flex-col lg:flex-row justify-between items-center px-6 lg:px-20 pt-8">
       <!-- Bagian teks -->
-      <div>
-        <h2 class="pt-24 text-4xl font-bold">Hi, I'm Muhammad Baihaqi</h2>
-        <h3 class="text-2xl text-violet-400">Frontend Developer</h3>
-        <h4 class="max-w-md text-gray-300">
+      <div class="text-center lg:text-left">
+        <h2 class="text-3xl lg:text-4xl font-bold">Hi, I'm Muhammad Baihaqi</h2>
+        <h3 class="text-xl lg:text-2xl text-violet-400">Frontend Developer</h3>
+        <h4 class="max-w-md text-gray-300 mt-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium distinctio, vel iure dolores autem doloribus maiores neque laudantium nisi modi sapiente in excepturi inventore aspernatur cum ea incidunt? Ipsam vero adipisci, iure officia iusto rem!
         </h4>
       </div>
 
-      <!-- Gambar profil di sebelah kanan -->
-      <div class="flex-shrink-0 pr-20">
+      <!-- Gambar profil di sebelah kanan pada layar besar, di atas/bawah teks pada layar kecil -->
+      <div class="mt-6 lg:mt-0 lg:ml-8">
         <img
           src="@/assets/img/haqi.jpg"
           alt="Profile"
-          class="w-60 h-60 rounded-full object-cover border-4 border-violet-400"
+          class="w-32 h-32 rounded-full object-cover border-4 border-violet-400 mx-auto lg:mx-0"
         />
       </div>
     </div>
