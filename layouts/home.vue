@@ -32,7 +32,7 @@
         <img
           src="@/assets/img/haqi.jpg"
           alt="Profile"
-          class="w-32 h-32 rounded-full object-cover border-4 border-violet-400 mx-auto lg:mx-0"
+          class="w-60 h-60 rounded-full object-cover border-4 border-violet-400 mx-auto lg:mx-0"
         />
       </div>
     </div>
